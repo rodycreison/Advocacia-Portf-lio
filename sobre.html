@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nós | Almeida & Castro Advocacia</title>
-    <meta name="description" content="Conheça a história, missão e os advogados do Almeida & Castro, sua equipe jurídica de confiança em São Paulo.">
+    <meta name="description" content="Conheça a história, missão, valores e os advogados do Almeida & Castro, sua equipe jurídica de confiança em São Paulo.">
     <link rel="canonical" href="https://www.almeidacastro.adv.br/sobre.html" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,6 @@
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
-            <a href="contato.html" class="cta-button header-cta">Entre em Contato</a>
         </div>
     </header>
 
@@ -41,34 +40,49 @@
                 <h1>Nossa História e Compromisso</h1>
             </div>
         </section>
+        
         <section class="content-section">
             <div class="container">
-                <h2>Missão, Visão e Valores</h2>
-                <p>O Almeida & Castro Advocacia nasceu do desejo de oferecer uma advocacia moderna, eficiente e, acima de tudo, humana. Nossa missão é defender os interesses de nossos clientes com máxima dedicação, ética e transparência, buscando sempre a solução mais justa e vantajosa.</p>
-                <p>Visamos ser referência em São Paulo nas nossas áreas de atuação, reconhecidos pela excelência técnica e pela qualidade do relacionamento com nossos clientes.</p>
-                <h2 style="text-align: center; margin-top: 50px;">Nossos Advogados</h2>
-                <div class="diferenciais-container" style="text-align: center;">
-                    <div class="advogado-card">
-                        <img src="images/advogado-1.jpg" alt="Foto do Dr. Ricardo Almeida" style="width:150px; height:150px; border-radius:50%; object-fit:cover; margin-bottom:15px;">
+                <div class="about-content">
+                    <div class="about-image">
+                         <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2069&auto=format&fit=crop" alt="Dois profissionais discutindo um projeto em um ambiente de escritório moderno.">
+                    </div>
+                    <div class="about-text">
+                        <h2>Missão, Visão e Valores</h2>
+                        <p>O Almeida & Castro Advocacia nasceu do desejo de oferecer uma advocacia moderna, eficiente e, acima de tudo, humana. Nossa <strong>missão</strong> é defender os interesses de nossos clientes com máxima dedicação, ética e transparência, buscando sempre a solução mais justa e vantajosa.</p>
+                        <p>Nossa <strong>visão</strong> é ser um escritório de referência em São Paulo nas nossas áreas de atuação, reconhecido pela excelência técnica, pela inovação e pela qualidade do relacionamento que construímos com cada cliente.</p>
+                        <p>Nossos <strong>valores</strong> são o alicerce de todo o nosso trabalho:
+                        <ul>
+                            <li><strong>Compromisso com o Cliente:</strong> A sua causa é a nossa causa.</li>
+                            <li><strong>Ética Inegociável:</strong> Atuamos com integridade em todas as as fases do processo.</li>
+                            <li><strong>Excelência Técnica:</strong> Buscamos constantemente o aprimoramento para oferecer as melhores estratégias.</li>
+                            <li><strong>Comunicação Clara:</strong> Traduzimos o "juridiquês" para que você entenda cada passo.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="equipe-section">
+                    <h2>Nossa Equipe</h2>
+                    <div class="advogado-item">
                         <h3>Dr. Ricardo Almeida</h3>
-                        <p style="font-weight:bold; color: var(--dourado);">OAB/SP 123.456</p>
+                        <p class="oab">OAB/SP 123.456</p>
                         <p>Sócio-fundador, especialista em Direito Empresarial com mais de 20 anos de experiência em contratos e societário.</p>
                     </div>
-                    <div class="advogado-card">
-                        <img src="images/advogada-1.jpg" alt="Foto da Dra. Beatriz Castro" style="width:150px; height:150px; border-radius:50%; object-fit:cover; margin-bottom:15px;">
+                    <div class="advogado-item">
                         <h3>Dra. Beatriz Castro</h3>
-                        <p style="font-weight:bold; color: var(--dourado);">OAB/SP 123.457</p>
+                        <p class="oab">OAB/SP 123.457</p>
                         <p>Sócia especialista em Direito de Família, com vasta experiência em divórcios, guardas e planejamento sucessório.</p>
                     </div>
-                    <div class="advogado-card">
-                        <img src="images/advogado-2.jpg" alt="Foto do Dr. Fernando Guimarães" style="width:150px; height:150px; border-radius:50%; object-fit:cover; margin-bottom:15px;">
+                    <div class="advogado-item">
                         <h3>Dr. Fernando Guimarães</h3>
-                        <p style="font-weight:bold; color: var(--dourado);">OAB/SP 123.458</p>
+                        <p class="oab">OAB/SP 123.458</p>
                         <p>Advogado Sênior, especialista em Direito Tributário, focado em planejamento fiscal e contencioso administrativo.</p>
                     </div>
                 </div>
             </div>
         </section>
+        
     </main>
 
     <footer class="main-footer">
@@ -93,11 +107,13 @@
                 </div>
                 <div class="footer-social">
                     <h4>Conecte-se</h4>
-                    <a href="https://www.linkedin.com/company/almeida-castro-advocacia" target="_blank"><img src="images/linkedin-icon.svg" alt="LinkedIn"></a>
+                    <a href="https://www.linkedin.com/company/almeida-castro-advocacia" target="_blank" aria-label="LinkedIn do escritório Almeida & Castro">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="social-icon" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14Zm-11 6H5v7h3V9Zm-1.5-2a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3ZM17 9h-2.5a2.5 2.5 0 0 0-2.5 2.5V16h3v-3.5c0-.5.5-1 1-1s1 .5 1 1V16h3v-4.5A2.5 2.5 0 0 0 17 9Z"/></svg>
+                    </a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Almeida & Castro Advocacia. Todos os direitos reservados.</p>
+                <p>© 2025 Almeida & Castro Advocacia. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
