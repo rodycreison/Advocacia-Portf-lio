@@ -86,27 +86,30 @@
                         </p>
                     </div>
                     <div class="contact-form">
-                        <h3>Envie uma Mensagem</h3>
-                        <form action="https://formspree.io/f/xnnzvvww" method="POST">
-                            <div class="form-group">
-                                <label for="name">Nome:</label>
-                                <input type="text" id="name" name="name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">E-mail:</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Telefone:</label>
-                                <input type="tel" id="phone" name="phone" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Mensagem:</label>
-                                <textarea id="message" name="message" required></textarea>
-                            </div>
-                            <button type="submit" class="cta-button">Enviar Mensagem</button>
-                        </form>
-                    </div>
+    <h3>Envie uma Mensagem</h3>
+    <!-- ID adicionado ao formulário -->
+    <form id="contact-form" action="https://formspree.io/f/xnnzvvww" method="POST">
+        <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="cta-button">Enviar Mensagem</button>
+    </form>
+    <!-- Div para exibir as mensagens de status -->
+    <div id="form-status"></div>
+</div>
                 </div>
                 <div class="map-container">
                     <h2>Nossa Localização</h2>

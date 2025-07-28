@@ -677,3 +677,25 @@ section {
         text-align: center;
     }
 }
+/* ===== ESTILOS PARA MENSAGENS DO FORMULÁRIO ===== */
+#form-status {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#form-status .success {
+    color: #28a745; /* Verde */
+    background-color: #e9f7eb;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #a3d9b1;
+}
+
+#form-status .error {
+    color: #dc3545; /* Vermelho */
+    background-color: #fce8e6;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f5b7b1;
+}
